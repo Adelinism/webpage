@@ -1,0 +1,56 @@
+h1 {
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200;
+}
+
+body {
+background-image: linear-gradient(lightpink, lightyellow, white, white);
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    font-family: Helvetica;
+    color: rgb(71, 5, 38);
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+    padding: 20px;
+}
+
+button {
+    border: 8px solid hotpink;
+    border-radius: 10px;
+    background-color: pink;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 80%;
+}
+a {
+    text-decoration: none;
+    color: rgb(71, 5, 38);
+    font-family: Helvetica;
+}
+
+#profilepic {
+    border: solid 5px hotpink;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    align-self: center;
+}
